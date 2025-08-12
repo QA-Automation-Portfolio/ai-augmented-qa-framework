@@ -1,0 +1,15 @@
+
+services:
+  tests:
+    build: .
+    image: ai-augmented-qa:latest
+    environment:
+      - BASE_URL=${BASE_URL:-https://www.saucedemo.com/}
+      - SAUCE_USERNAME=${SAUCE_USERNAME:-standard_user}
+      - SAUCE_PASSWORD=${SAUCE_PASSWORD:-secret_sauce}
+      - FIRST_NAME=${FIRST_NAME:-Alex}
+      - LAST_NAME=${LAST_NAME:-QA}
+      - POSTAL_CODE=${POSTAL_CODE:-00000}
+      - LLM_PROVIDER=${LLM_PROVIDER:-mock}
+    volumes:
+      - ./:/app
