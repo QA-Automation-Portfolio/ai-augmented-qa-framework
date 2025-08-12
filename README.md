@@ -1,13 +1,11 @@
 
 # AI‑Augmented QA Framework (Playwright + Allure + CI + Docker)
 
-Portfolio‑ready E2E framework for the public demo shop **saucedemo.com** that demonstrates:
+E2E framework for the public demo shop **saucedemo.com** that demonstrates:
 - **Playwright + Pytest** with Page Object Model
 - **Allure** reporting (artifacts, timings)
 - **AI module** that analyzes run artifacts and proposes **new high‑value tests** (offline rules + optional LLM)
 - **CI** (GitHub Actions) + **Docker** for reproducible runs
-
-> Perfect to showcase an **AI Augmented AQA Engineer** skill set: automation + quality strategy + data‑driven insights.
 
 ---
 
